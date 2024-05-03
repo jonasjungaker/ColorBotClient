@@ -13,10 +13,15 @@ For every other dependancy, these will be compiled together with the rest of the
 
 ### Compile with CMake
 Clone the repository with the command:
+
 `git clone --recurse-submodules https://github.com/jonasjungaker/ColorBotClient`
+
 and configure the repository with cmake (for an out-of-tree build):
+
 `cmake -S . -B build`
+
 and then compile the project with:
+
 `cmake --build build --config Release`
 
 You will find the comiled binary in a folder found at `build/bin/Release/client.exe` when compiling for a Windows target. 
